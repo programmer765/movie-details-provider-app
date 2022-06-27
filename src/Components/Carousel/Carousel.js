@@ -41,6 +41,7 @@ const Carousel = ({ media_type, id }) => {
       setCredits(data.cast);
     };
     fetchCredits();
+    // eslint-disable-next-line
   }, []);
 
   return (
