@@ -1,0 +1,12 @@
+.carouselItem {
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  padding: .625rem;
+}
+
+.carouselItem_name {
+  padding-left: .3125rem;
+  padding-top: .1875rem;
+  font-weight: 500;
+}

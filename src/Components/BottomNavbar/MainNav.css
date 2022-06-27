@@ -1,0 +1,11 @@
+.root {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #2d313a !important;
+  z-index: 100;
+}
+
+.child {
+  color: #ebe1e1 !important;
+}

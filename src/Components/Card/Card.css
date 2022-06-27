@@ -1,0 +1,43 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 12.5rem;
+  padding: .3125rem;
+  margin: .3125rem 0rem;
+  background-color: #141414;
+  border-radius: .625rem;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  transition: transform 500ms;
+  cursor: pointer;
+}
+
+.media:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 40px 0 rgba(17, 17, 17, 0.4);
+  z-index: 3;
+}
+
+@media (max-width: 34.375rem) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: .625rem;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.0625rem; 
+  padding: .5rem 0rem;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem .125rem;
+  padding-bottom: .1875rem;
+}

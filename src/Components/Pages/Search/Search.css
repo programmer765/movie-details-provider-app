@@ -1,0 +1,20 @@
+.search {
+  display: flex;
+  margin: .9375rem 0rem;
+}
+
+.searchBox {
+  flex: 1;
+}
+
+.button {
+  margin-left: .625rem;
+}
+
+.tabs {
+  padding-bottom: .3125rem;
+}
+
+.tab {
+  width: 50%;
+}
